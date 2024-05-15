@@ -43,7 +43,7 @@ footer {
 }
 
 .main-button {
-  width: 360px;
+  width: 300px;
   height: 70px;
   display: block;
   text-align: center;
@@ -63,4 +63,45 @@ footer {
 
 .list-style {
   list-style: none;
+}
+
+.w-display {
+  width: 75%;
+}
+
+@media (max-width: 808px) {
+  .main {
+    background-color: white;
+  }
+
+  .main-text {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .arrow-img {
+    width: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .center-text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .w-display {
+    width: 100%;
+  }
+
+  .space {
+    margin-bottom: 2rem;
+  }
+
+  .row-rev {
+    flex-direction: column-reverse;
+  }
+
+  .main-button {
+    margin-bottom: 6rem;
+  }
 }
