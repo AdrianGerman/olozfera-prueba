@@ -31,7 +31,7 @@
                     </section>
                     <section
                         class="col d-flex align-items-center justify-content-end">
-                        <a href="#">
+                        <a href="#contact">
                             <img class="size-gmail"
                                 src="./img/nav/mail.png"
                                 alt="gmail_icon">
@@ -51,7 +51,8 @@
                     <section
                         class="col-md-5 d-flex flex-column align-items-center justify-content-center gap-4 text-center">
                         <h1 class="main-text mt-4">Ut Labore el dolera</h1>
-                        <button class="main-button mb-4">
+                        <button class="main-button mb-4"
+                            onclick="toContact('contact')">
                             Contactar
                         </button>
                     </section>
@@ -60,9 +61,11 @@
 
             <section class="container main">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="img-fluid arrow-img"
-                        src="./img/nav/new-arrow.png"
-                        alt="arrow_icon">
+                    <a href="#main-sec">
+                        <img class="img-fluid arrow-img"
+                            src="./img/nav/new-arrow.png"
+                            alt="arrow_icon">
+                    </a>
                 </div>
             </section>
 
@@ -72,7 +75,7 @@
                     <li
                         class="col-sm-6 col-md-3 d-flex align-items-center justify-content-center gap-4">
                         <img class="img-fluid rounded-circle mb-3 pointer"
-                            src="./img/services.jpeg" alt>
+                            src="./img/services.webp" alt>
                         <div>
                             <h3 class="fw-bold">Título</h3>
                             <p class="fs-5">Descripción del servicio</p>
@@ -81,7 +84,7 @@
                     <li
                         class="col-sm-6 col-md-3 d-flex align-items-center justify-content-center gap-4">
                         <img class="img-fluid rounded-circle mb-3 pointer"
-                            src="./img/services.jpeg" alt>
+                            src="./img/services.webp" alt>
                         <div>
                             <h3 class="fw-bold">Título</h3>
                             <p class="fs-5">Descripción del servicio</p>
@@ -90,7 +93,7 @@
                     <li
                         class="col-sm-6 col-md-3 d-flex align-items-center justify-content-center gap-4">
                         <img class="img-fluid rounded-circle mb-3 pointer"
-                            src="./img/services.jpeg" alt>
+                            src="./img/services.webp" alt>
                         <div>
                             <h3 class="fw-bold">Título</h3>
                             <p class="fs-5">Descripción del servicio</p>
@@ -99,7 +102,7 @@
                     <li
                         class="col-sm-6 col-md-3 d-flex align-items-center justify-content-center gap-4">
                         <img class="img-fluid rounded-circle mb-3 pointer"
-                            src="./img/services.jpeg" alt>
+                            src="./img/services.webp" alt>
                         <div>
                             <h3 class="fw-bold">Título</h3>
                             <p class="fs-5">Descripción del servicio</p>
@@ -109,9 +112,9 @@
             </section>
         </header>
 
-        <main class="container">
+        <main class="container" id="main-sec">
             <div class="row row-rev">
-                <img class="col " src="./img/main.png" alt="main_img">
+                <img class="col pointer" src="./img/main.png" alt="main_img">
                 <div
                     class="col d-flex flex-column justify-content-center">
                     <h2 class="main-text mt-4">Ut Labore el dolera</h2>
@@ -126,7 +129,7 @@
             </div>
         </main>
 
-        <section class="container">
+        <section class="container" id="contact">
             <div class="row">
                 <div class="col">
                     <h2 class="fw-bold fs-1 pb-4 center-text">Contáctenos
@@ -155,7 +158,8 @@
                             placeholder="Teléfono"
                             aria-describedby="inputGroup-sizing-lg">
                     </div>
-                    <button class="main-button">Contactar</button>
+                    <button class="main-button"
+                        onclick="toContact('contact')">Contactar</button>
                 </div>
             </div>
         </section>
@@ -169,5 +173,6 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
