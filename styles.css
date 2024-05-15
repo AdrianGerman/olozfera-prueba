@@ -1,5 +1,7 @@
 :root {
   --bg-btn: #fae31b;
+  --bg-nav-header: #d9d9d9;
+  --bg-header: #99abeb;
 }
 
 * {
@@ -16,7 +18,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100px;
-  background-color: bisque;
+  background-color: var(--bg-nav-header);
 }
 
 nav .nav-logo-container {
@@ -48,7 +50,7 @@ nav .profile-link {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
-  background-color: blanchedalmond;
+  background-color: var(--bg-nav-header);
 }
 
 .home-main img {
@@ -96,7 +98,7 @@ nav .profile-link {
 
 .arrow-section {
   height: 100px;
-  background-color: bisque;
+  background-color: var(--bg-nav-header);
   display: flex;
   justify-content: center;
 }
@@ -110,14 +112,14 @@ nav .profile-link {
 
 .services {
   height: 200px;
-  background-color: aqua;
+  background-color: var(--bg-header);
 }
 
 .services ul {
   height: 100%;
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   justify-content: center;
   align-content: center;
 }
@@ -130,4 +132,12 @@ nav .profile-link {
 
 .services ul li img {
   border-radius: 50%;
+}
+
+.services ul li h2 {
+  font-size: 32px;
+}
+
+.services ul li p {
+  font-size: 22px;
 }
