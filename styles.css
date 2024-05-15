@@ -17,6 +17,10 @@ body {
   background-color: var(--bg-header);
 }
 
+footer {
+  background-color: var(--bg-nav-header);
+}
+
 .size-logo {
   width: 101px;
   height: 75px;
