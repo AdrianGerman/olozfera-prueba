@@ -9,6 +9,14 @@ body {
   font-optical-sizing: auto;
 }
 
+.main {
+  background-color: var(--bg-nav-header);
+}
+
+.services {
+  background-color: var(--bg-header);
+}
+
 .size-logo {
   width: 101px;
   height: 75px;
