@@ -2,9 +2,9 @@
 
 ## Mi información
 
-> **Nombre:** Adrian Ernesto German Becerra
-> **Contacto:** adrian.german1019@gmail.com
-> **Teléfono:** 3861061529
+- **Nombre:** Adrian Ernesto German Becerra
+- **Contacto:** adrian.german1019@gmail.com
+- **Teléfono:** 3861061529
 
 ## Descripción del proyecto
 Tomando la base del primer proyecto solamente agregue un slider aprovechando las clases **Carousel de Boostrap**, ya con esto fue muy sencillo implementar el slider o galería de imágenes, solo cambie los iconos por defecto por los símbolos **"<"** y **">"** para asi poder manipularlos y poder cambiarle el color, ya que los que vienen directo de Boostrap no se pueden editar y por el diseño de la web no se veían adecuadamente.
