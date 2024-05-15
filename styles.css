@@ -9,6 +9,7 @@ body {
   font-optical-sizing: auto;
 }
 
+/* colors */
 .main {
   background-color: var(--bg-nav-header);
 }
@@ -21,6 +22,12 @@ footer {
   background-color: var(--bg-nav-header);
 }
 
+/* general */
+.pointer {
+  cursor: pointer;
+}
+
+/* nav */
 .size-logo {
   width: 101px;
   height: 75px;
@@ -31,6 +38,7 @@ footer {
   height: 44px;
 }
 
+/* header */
 .size-img-seo {
   width: 100%;
   height: 100%;
@@ -61,6 +69,7 @@ footer {
   background-color: #d8c411;
 }
 
+/* header arrow */
 .arrow-img {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -73,16 +82,20 @@ footer {
   transform: rotate(90deg);
 }
 
-.pointer {
-  cursor: pointer;
-}
-
+/* services */
 .list-style {
   list-style: none;
 }
 
+/* main */
 .w-display {
   width: 75%;
+}
+
+/* slider */
+.margin {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
 }
 
 .carousel-item img {
@@ -91,6 +104,7 @@ footer {
   object-fit: contain;
 }
 
+/* responsive */
 @media (max-width: 808px) {
   .main {
     background-color: white;
@@ -126,5 +140,10 @@ footer {
 
   .main-button {
     margin-bottom: 6rem;
+  }
+
+  .margin {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
